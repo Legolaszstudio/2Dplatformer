@@ -3,7 +3,7 @@
 public class BaseClassScript : MonoBehaviour
 {
     private string className;
-    private int strenght, health, intelligent, damage;
+    private int strength, health, intelligent, damage;
     private bool shoot;
 
     public string ClassName {
@@ -11,10 +11,10 @@ public class BaseClassScript : MonoBehaviour
         set { className = value;}
     }
 
-    public int Strenght
+    public int Strength
     {
-        get { return strenght; }
-        set { strenght = value; }
+        get { return strength; }
+        set { strength = value; }
     }
 
     public int Health
