@@ -5,10 +5,10 @@ public class BaseClassScript : MonoBehaviour
     private string className;
     private int strength, health, intelligent, damage;
     private bool shoot;
-
-    public string ClassName {
-        get { return className;}
-        set { className = value;}
+    public string ClassName
+    {
+        get { return className; }
+        set { className = value; }
     }
 
     public int Strength
